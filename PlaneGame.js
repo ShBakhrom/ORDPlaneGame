@@ -12,19 +12,19 @@ class PlaneGame extends Phaser.Scene {
         for ( this.i = 1; this.i < 16; this.i++) {
             this.load.image(''+this.i, 'Assets/luggage/'+this.i+'.png');
         }
-        this.load.image('blryCld1', 'assets/clouds/bluryCloud1.png');
-        this.load.image('blryCld2', 'assets/clouds/bluryCloud2.png');
-        this.load.image('blryCld3', 'assets/clouds/bluryCloud3.png');
-        this.load.image('blryCld4', 'assets/clouds/bluryCloud4.png');
-        this.load.image('blryCld5', 'assets/clouds/bluryCloud5.png');
-        this.load.image('blryCld6', 'assets/clouds/bluryCloud6.png');
-        this.load.image('cld1', 'assets/clouds/cloud1.png');
-        this.load.image('cld2', 'assets/clouds/cloud2.png');
-        this.load.image('cld3', 'assets/clouds/cloud3.png');
-        this.load.image('cld4', 'assets/clouds/cloud4.png');
-        this.load.image('cld5', 'assets/clouds/cloud5.png');
-        this.load.image('cld6', 'assets/clouds/cloud6.png');
-        this.load.image('luggageIcon', 'assets/luggageIcon.png');
+        this.load.image('blryCld1', 'Assets/clouds/bluryCloud1.png');
+        this.load.image('blryCld2', 'Assets/clouds/bluryCloud2.png');
+        this.load.image('blryCld3', 'Assets/clouds/bluryCloud3.png');
+        this.load.image('blryCld4', 'Assets/clouds/bluryCloud4.png');
+        this.load.image('blryCld5', 'Assets/clouds/bluryCloud5.png');
+        this.load.image('blryCld6', 'Assets/clouds/bluryCloud6.png');
+        this.load.image('cld1', 'Assets/clouds/cloud1.png');
+        this.load.image('cld2', 'Assets/clouds/cloud2.png');
+        this.load.image('cld3', 'Assets/clouds/cloud3.png');
+        this.load.image('cld4', 'Assets/clouds/cloud4.png');
+        this.load.image('cld5', 'Assets/clouds/cloud5.png');
+        this.load.image('cld6', 'Assets/clouds/cloud6.png');
+        this.load.image('luggageIcon', 'Assets/luggageIcon.png');
     }
     
     
